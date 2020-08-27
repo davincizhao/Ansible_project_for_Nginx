@@ -4,13 +4,18 @@ Platform: AWS EC2
 OS: Redhat
 Port: open inbound port:  "80" to "anywhere" in EC2 Security Groups  
 
-ansible play_book to setup nginx and run the service
+## Goal
+Ansible play_book to setup nginx and run the service
 
+## Installation Step
 - Install python3 using sudo yum install python3
 - Install Ansible using sudo yum install  ansible
 - Create a new directory structure using the command . mkdir -p nginx_ansible/roles/nginx/tasks
 - Create an Ansible role to install Nginx.
 - Run the job.
+
+## Directory Structure
+![Directory tree](tree.png)
 
 ## How to run
 ansible-playbook -i Inventory  main.yaml
