@@ -1,5 +1,8 @@
 # Ansible_project_for_Nginx
+
+Platform: AWS EC2
 OS: Redhat
+Port: open inbound port:  "80" to "anywhere" in EC2 Security Groups  
 
 ansible play_book to setup nginx and run the service
 
