@@ -3,8 +3,8 @@ OS: Redhat
 
 ansible play_book to setup nginx and run the service
 
-
-- Install Ansible using sudo yum install -y ansible
+- Install python3 using sudo yum install python3
+- Install Ansible using sudo yum install  ansible
 - Create a new directory structure using the command . mkdir -p nginx_ansible/roles/nginx/tasks
 - Create an Ansible role to install Nginx.
 - Run the job.
